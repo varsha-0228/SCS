@@ -8,40 +8,55 @@ body{
     background-image: url(bg.png );
     background-repeat: no-repeat;
     background-size:cover;
+    padding-left: 10px;
+    margin-right: 10px;
 }
 h1{
     margin:1vh;
 }
 .container{
-    background: rgba(255, 255, 255, 0.5);
-    width:50vh;
-    padding: 2rem 1rem;
-    margin: 50px auto;
+    background: linear-gradient(500deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5));
+    width:30vw;
+    padding: 3vw;
+    margin:auto;
+    margin-top: 15vh;
     border-radius: 10px;
     text-align: center;
-    margin-top: 22vh;
 }
 input{
-    margin: 1vh 0vh;
+    margin: 10px 0px;
     padding:10px;
-    border-radius: 25px;
+    border-radius: 50px;
     width: 90%;
     font-family: monospace;
     outline: none;
     border: none;
+    box-shadow: 1px 1px 5px black;
 }
 .sign{
-    font-size:20px;
-    margin:1vh 0vh;
+    font-size:17px;
+    margin:2vh auto;
     padding:5px 15px;
-    width:50%;
+    width:12vw;
     background-color: rgb(30, 105, 218);
     border-radius: 15px;
     outline: none;
     border: none;
-    
 }
-.already{
-    font-size: 20px;
+@media (max-width:767px)
+{
+    body
+    {
+        background: white;
+    }
+    .container
+    {
+        background: linear-gradient(to right,rgb(197, 197, 197),rgb(236, 236, 236));
+        box-shadow: 1px 1px 10px black;
+        width: 80%;
+    }
+    .sign
+    {
+        width: 60%;
+    }
 }
-@media (max-width)
