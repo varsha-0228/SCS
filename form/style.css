@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(bg.png );
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    margin:1vh;
+}
+.container{
+    background: rgba(255, 255, 255, 0.5);
+    width:50vh;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 22vh;
+}
+input{
+    margin: 1vh 0vh;
+    padding:10px;
+    border-radius: 25px;
+    width: 90%;
+    font-family: monospace;
+    outline: none;
+    border: none;
+}
+.sign{
+    font-size:20px;
+    margin:1vh 0vh;
+    padding:5px 15px;
+    width:50%;
+    background-color: rgb(30, 105, 218);
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    
+}
+.already{
+    font-size: 20px;
+}
+@media (max-width)
