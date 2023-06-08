@@ -19,6 +19,7 @@ nav{
   position:fixed;
   top: 0;
   left:0;
+  bottom:0;
   height: 100vh;
   background:#feffff63;
   width: 280px;
@@ -154,11 +155,12 @@ a:hover{
 }
 .course-box .course{
   display: flex;
+  flex-wrap: wrap;
 }
 .box{
-  width: 33%;
-  padding: 20px;
-  margin: 20px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
   border-radius: 10px;
   background: rgba(2, 2, 2, 0.185);
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
@@ -179,7 +181,7 @@ a:hover{
   background: rgba(12, 12, 12, 0.877);
 }
 .box i{
-  font-size: 7rem;
+  font-size: 5rem;
   float: right;
   margin: -20px 20px 20px 0;
 }
