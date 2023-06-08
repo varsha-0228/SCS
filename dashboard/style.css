@@ -21,7 +21,7 @@ nav{
   left:0;
   height: 100vh;
   background:#feffff63;
-  width: 250px;
+  width: 280px;
   overflow: hidden;
   box-shadow: 0 20px 35px rgba(12, 110, 201, 0.418);
   
@@ -47,7 +47,7 @@ a{
   color: rgb(255, 255, 255);
   font-size: 15px;
   display: table;
-  width: 250px;
+  width: 280px;
   padding: 10px;
 }
 nav .fas{
