@@ -16,11 +16,11 @@ body{
   display: flex;
 }
 nav{
-  position:relative;
+  position:fixed;
   top: 0;
   bottom: 0;
   left:0;
-  height: 120vh;
+  height: 100vh;
   background:#feffff63;
   width: 280px;
   overflow: hidden;
@@ -76,6 +76,7 @@ a:hover{
 .main{
   position: relative;
   padding: 20px;
+  margin-left: 280px;
   width: 100%;
 }
 .main-top{
