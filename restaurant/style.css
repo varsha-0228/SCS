@@ -13,4 +13,19 @@
   background-size: cover;
   
 }
+#about{
+    background-image: url("about.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.8;
+}    
+#third{
+    background:whitesmoke;
+    opacity: 0.8;
+}
+#fourth{
+    background: black;
+    opacity: 0.9;
+}
 
