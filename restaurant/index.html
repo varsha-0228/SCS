@@ -11,7 +11,7 @@
 </head>
 <body class="scroll-smooth">
  <section id="first">
-    <nav class=" w-screen h-24 mx-auto  sm:flex justify-between items-center bg-black">
+    <nav class=" sticky top-0 w-screen h-24 mx-auto  sm:flex justify-between items-center bg-black">
         <input type="checkbox" id="check" hidden>
         <label for="check" class=" text-white text-3xl mr-14  md:hidden absolute right-1 top-7 justify-end">
             <i class="fas fa-bars"></i>
@@ -19,11 +19,11 @@
         <img class="h-24 inline sm:pl-4 " src="logo.png">
         <ul class="bg-black   text-white  p-4 sm:visible sm:flex gap-5 text-center
             items-center opacity-0 sm:opacity-100 relative top-[-450px] sm:top-[0px] transition-all duration-[0.5s]">
-            <li class="p-3 sm:px-3 sm:py-0 "><a href="#"> HOME</a></li>
+            <li class="p-3 sm:px-3 sm:py-0 "><a href="#first"> HOME</a></li>
             <li class="p-3 sm:px-3 sm:py-0"><a href="#second"> MENU</a></li>
             <li class="p-3 sm:px-3 sm:py-0"><a href="#third">ABOUT</a></li>
             <li class="p-3 sm:px-3 sm:py-0"><a href="#fifth">SERVICES</a></li>
-            <li class="p-3 sm:px-3 sm:py-0"><a href="#">CONTACT</a></li>
+            <li class="p-3 sm:px-3 sm:py-0"><a href="#sixth">CONTACT</a></li>
         </ul> 
     </nav>
     <div class="mt-36 max-w-xl m-9 ">
@@ -78,7 +78,8 @@
  <div id="about">
    <section id="third">
         <h1 class="text-center font-semibold text-3xl text-yellow-500 m-10 p-7">ABOUT US</h1>
-        <p class="text-2xl p-2 m-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque e vie labore asperiores itaque voluptatum sit officiis! Modi quia dicta itaque autem alias vel quaerat obcaecati velit quos ipsa dolorum veniam nisi quibusdam deleniti, aut nobis! Beatae eligendi verianimi harum vitae dolorem at laudantium amet pariatur! Dicta labore soluta fugit ex facilis quaerat corporis amet aut illo cumque dolorum id, possimus explicabo unde temporibus, distinctio dolore. Saepe vel cupiditate unde commodi. Inventore, aperiam rem labore harum exercitationem quia! Veritatis quam reprehenderit ad ea quidem cupiditate sit corporis nemo, laudantium porro molestiae natus nostrum aspernatur recusandae ipsa eligendi dolorem quisquam dicta. Necessitatibus voluptatem vitae hic excepturi corrupti consectetur, ipsam voluptate illum aspernatur temporibus, dolorum assumenda? Quasi sunt totam ea ex architecto pariatur, suscipit maxime doloremque, temporibus minus ipsam cupiditate rerum eum sint ad laudantium at nostrum iusto in eos! Temporibus numquam accusamus saepe expedita placeat, natus cum quod culpa quos maxime magni et, laborum, alias vero. Sit, veniam.</p>   
+        <p class="text-2xl p-2 m-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque e vie labore asperiores itaque voluptatum sit officiis! Modi quia dicta itaque autem alias vel quaerat obcaecati velit quos ipsa dolorum veniam nisi quibusdam deleniti, aut nobis! Beatae eligendi verianimi harum vitae dolorem at laudantium amet pariatur! Dicta labore soluta fugit ex facilis quaerat corporis amet aut illo cumque dolorum id, possimus explicabo unde temporibus, distinctio dolore. Saepe vel cupiditate unde commodi. Inventore, aperiam rem labore harum exercitationem quia! Veritatis quam reprehenderit ad ea quidem cupiditate sit corporis nemo, laudantium porro molestiae natus nostrum aspernatur recusandae ipsa eligendi dolorem quisquam dicta. Necessitatibus voluptatem vitae hic excepturi corrupti consectetur, ipsam voluptate illum aspernatur temporibus, dolorum assumenda? Quasi sunt totam ea ex architecto pariatur, suscipit maxime doloremque, temporibus minus ipsam cupiditate rerum eum sint ad laudantium at nostrum iusto in eos! Temporibus numquam accusamus saepe expedita placeat, natus cum quod culpa quos maxime magni et, laborum, alias vero sit veniam.</p>  
+        <br> 
    </section>  
     <section id="fourth">
     <h1 class="text-center font-semibold text-3xl text-yellow-500 m-10 p-7">OUR GALLERY</h1>
@@ -151,7 +152,81 @@
             
         </div>
         <br>
+        <br><br>
     </section>    
+    <section id="sixth">
+            <h1 class="text-center font-semibold text-3xl text-black m-10">Get In Touch With Us</h1>
+        <div class=" mt-[8] flex w-full min-h-screen justify-center items-center">
+            <div class="flex flex-col m-6  md:flex-row md:space-x-6  space-y-5 md:space-y-0 bg-amber-400  max-w-full h p-8 sm:p-12 rounded-xl shadow-md">
+                <div class="flex flex-col space-y-7 justify-between">
+                    <div>
+                        <h1 class="font-bold text-4xl">Contact Us
+
+                        </h1>
+                        <p class="pt-2 text-sm text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Velit laboriosam animi repudiandae fugit est? <br> Harum ipsum dolor sit amet.
+                        </p>
+                    </div>
+                    <div class="space-y-5">
+                        <div class="space-x-2 items-center">
+                            <i class="fa-solid fa-location-dot" class="text-2xl "></i>
+                            <span> Piazza della Signoria 2r-50122 Firenze (FI)</span>
+                        </div>
+                        <div class="space-x-2 items-center">
+                            <i class="fa-sharp fa-solid fa-phone" class="text-2xl"></i>
+                            <span> 055 21 53 72</span>
+                        </div>
+                        <div class="space-x-2 items-center">
+                            <i class="fa-sharp fa-solid fa-envelope" class="text-2xl"></i>
+                            <span>info@abcd.com</span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4 text-lg">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 text-black md:w-80">
+                        <form action="" class="flex flex-col space-y-4">
+                            <div>
+                                <label for="" class="text-sm">Your name</label>
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Your name" class="border-black ring-1 ring-black w-full rounded-md px-4 py-2  outline-none ">
+                            </div>
+                            <div>
+                                <label for="" class="text-sm">E-mail Address</label>
+                            </div>
+                            <div>
+                                <input type="email" placeholder="E-mail Address" class="border-black ring-1 ring-black w-full rounded-md px-4 py-2  outline-none ">
+                            </div>
+                            <div>
+                                <label for="" class="text-sm">Message</label>
+                                <textarea placeholder="Message" rows="4" class="border-black ring-1 ring-black w-full rounded-md px-4 py-2  outline-none ">
+
+                                </textarea>
+                            
+                            </div>
+                            <button class="inline-block bg-yellow-400 text-black font-bold rounded-lg px-4 py-2 text sm">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-black text-center">  &copy; all rights reserved by El Toro ----by HimaVarsha
+          </span>
+    </footer>
 </body>
 </html>
 
